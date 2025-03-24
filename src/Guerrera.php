@@ -28,7 +28,7 @@ class Guerrera
 
     public function heridaLeve(){
         #Se le quitan 10 puntos de vida a la guerrera y además se cambia el valor de situacion (si fuera necesario)
-        $this->puntosVida-=30;
+        $this->puntosVida-=10;
         if ($this->puntosVida<0) $this->situacion='muerta';
         elseif ($this->puntosVida==0) $this->situacion='limbo';
 
